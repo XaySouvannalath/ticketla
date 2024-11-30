@@ -1,0 +1,82 @@
+html{
+  background-color: #f4f4f5;
+  font-family: "Noto Sans Lao", sans-serif;
+}
+.h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .h2 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .h5 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .h6 {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  /* Additional Styling Options */
+  
+  /* Using a CSS Reset */
+  /* Consider using a CSS reset like Normalize.css or Reset CSS to ensure consistent styling across browsers. */
+  
+  /* Using a CSS Framework */
+  /* Frameworks like Bootstrap or Tailwind CSS provide pre-built styles for headings. */
+  
+  /* Customizing Font Family and Color */
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Adding Margins and Padding */
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 1em;
+    padding: 0;
+  }
+  
+  /* Creating a Hierarchical Structure */
+  .h1 {
+    font-size: 2.5em;
+    margin-bottom: 2em;
+  }
+  
+  .h2 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+  }
+  
+  .h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .h1 {
+      font-size: 2em;
+    }
+  
+    .h2 {
+      font-size: 1.8em;
+    }
+  
+    /* Adjust font sizes for other headings as needed */
+  }
